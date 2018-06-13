@@ -7,7 +7,7 @@
 * check for spelling
 * use !! operator instead of checking for null or undefined through if
 * always specify return type for function where the it is not void
-* for property types, `?` defines optional where as `<Type> | null` defines it can either be of `<Type> or null`
+* for property types, `?` defines optional where as `<Type> | null` defines it can either be of `<Type>` or `null`
 * a function should do only one thing
 * a function ideally should not contain more than 20-25 lines of code
 * do not use `::ng-deep` style hack to override child component's style unless the business requirement cannot be negotiated and there is no other way to meet requirement
