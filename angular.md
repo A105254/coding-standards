@@ -1,0 +1,1 @@
+# Best practices to follow for Angular development
