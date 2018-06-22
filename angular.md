@@ -29,6 +29,18 @@
 
 ## Testing
 
+* If any Mock data is required for testing which needs any modification then it is better to write a new Mock Data specific to the requirement rather than modifying an existing Mock Data as a lot people from other teams amy use that data. 
+* All the commented code must be removed
+* Unused code should also me removed to ensure cleanliness and descrease redundancy
+* Console.Log is used for debugging the code but is removed before comming the code into dev branch
+* While checking the visibility of any element we have to use isDisplayed rather than isPresent as isPresent() checks for the element to be present in the DOM, whereas isDisplayed() checks DOM as well as the actual display on the page
+* Proper naming convension has to be followed while creating anything
+* Methods written must be properly formatted. Use TSLint extension to check proper linting
+* Describe and it blocks in Jasmine framework should be mutually understandable like on doing this --> assert this happened
+* Methods should be broken into smallest logical component
+* While adding any method we need to check if the exception is getting caught if expection of the method is not matching
+* Need to check the name of the methods and variables using Spell Check extension
+
 ## Useful VS Code Extensions
 
 * Angular Language Service
