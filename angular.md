@@ -25,6 +25,7 @@
 * to interact with the DOM, use `Renderer2` APIs
 * data model class should not contain Model in name; but the file name should be like `*.model.ts`
 * do not check-in code with `console.log`
+* if a component has an api call, consider moving it to a service
 
 
 ## Testing
