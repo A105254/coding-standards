@@ -38,9 +38,19 @@
 * Proper naming convension has to be followed while creating anything
 * Methods written must be properly formatted. Use TSLint extension to check proper linting
 * Describe and it blocks in Jasmine framework should be mutually understandable like on doing this --> assert this happened
+* All the it block must contain an assertion
 * Methods should be broken into smallest logical component
+* Selectors has to be written with simplest possible way
 * While adding any method we need to check if the exception is getting caught if expection of the method is not matching
 * Need to check the name of the methods and variables using Spell Check extension
+* In case of any abnormal loading of a specific page we need to add multiple wait for visibility rather than using implicit wait or sleep
+* For all if we must have a else clause. We also need to implement try catch if the else condition turns to be an error condition
+* For all repetative code blocks we must try to have a single reusable code block
+* Any hardcoded variable for any purpose has to be converted into a constant
+* Any WIP has to be mentioned as a //WIP or //TODO: To be Investigated / Removed
+* The language in Describe and It block must be in present continuos tense
+* We need not use abreviations for variables or method names.
+* Try to make as much reusable blocks as possible to decrease the size of the spec file
 
 ## Useful VS Code Extensions
 
